@@ -14,11 +14,11 @@
 |  お邪魔妖怪(poltergeist)  |  setter/getterのみのオブジェクト  |  不要  |
 |  溶岩流(lava flow)  |  プログラムの残骸  |  除去、アーキテクチャに基づく開発  |
 |  打出の小槌(golden hammer)  |  習慣依存  |  ゼロベース思考  |
-|  スパゲッティコード (spaghetti code)  |  x  |  x  |
-|  切り貼りプログラミング(copy and paste programming)  |  x  |  x  |
-|  曖昧な視点(ambiguous viewpoint)  |  x  |  x  |
-|  入力クラッジ(input kludge)  |  x  |  x  |
-|  暗室栽培(mushroom management)  |  x  |  x  |
+|  スパゲッティコード (spaghetti code)  |  解読困難  |  設計  |
+|  切り貼りプログラミング(copy and paste programming)  |  安易な流用  |  設計  |
+|  曖昧な視点(ambiguous viewpoint)  |  曖昧な用途  |  明確な用途  |
+|  入力クラッジ(input kludge)  |  甘い入力制御  |  入力バリデーション  |
+|  暗室栽培(mushroom management)  |  情報欠如  |  情報公開  |
 
 ## ソフトウェア基盤
 - システムのおんぼろ煙突化(stovepipe system)
@@ -81,3 +81,4 @@
 - [アンチパターン(wikipedia)](https://ja.wikipedia.org/wiki/アンチパターン)
 - [アンチパターンってなに？](https://thinkit.co.jp/article/929/1)
 - [やめた方が良いコーディング・設計、アンチパターン](https://qiita.com/peutes/items/ad046baa2428b522a133)
+- [アンチパターン―ソフトウェア危篤患者の救出](https://www.amazon.co.jp/dp/4797321385)
