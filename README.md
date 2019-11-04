@@ -21,10 +21,13 @@
 |  暗室栽培(mushroom management)  |  情報欠如  |  情報公開  |
 
 ## ソフトウェア基盤
-- システムのおんぼろ煙突化(stovepipe system)
-- 砂上の楼閣(vendor lock-in)
-- 組織硬直(design by committee)
-- 車輪の再発明 (reinventing the wheel)
+
+|  項目  |  状態  |  解決  |
+| ---- | ---- | ---- |
+|  システムのおんぼろ煙突化(stovepipe system)  |  コミュニケーション断絶  | 継続的リファクタリング  |
+|  砂上の楼閣(vendor lock-in)  |  過度の外部依存  |  設計  |
+|  組織硬直(design by committee)  |  ビジョン欠如  |  ビジョン  |
+|  車輪の再発明 (reinventing the wheel)  |  無知  |  調査  |
 
 ## 組織
 - ドル箱商品
