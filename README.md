@@ -7,15 +7,18 @@
 また、組織やプロジェクトのようなソフトウェア開発を取り巻く要素はソフトウェア開発に影響を与えうるものであり、アンチパターンが存在しているので、ソフトウェア開発者としては周辺領域のアンチパターンを理解しておいて損はなさそうです
 
 ## ソフトウェア開発
-- 肥満児(The Blob)
-- お邪魔妖怪(poltergeist)
-- 溶岩流(lava flow)
-- 打出の小槌(golden hammer)
-- スパゲッティコード (spaghetti code)
-- 切り貼りプログラミング(copy and paste programming)
-- 曖昧な視点(ambiguous viewpoint)
-- 入力クラッジ(input kludge)
-- 暗室栽培(mushroom management)
+
+|  項目  |  状態  |  解決  |
+| ---- | ---- | ---- |
+|  肥満児(The Blob)  |  オブジェクトの肥大  |  分割  |
+|  お邪魔妖怪(poltergeist)  |  setter/getterのみのオブジェクト  |  不要  |
+|  溶岩流(lava flow)  |  プログラムの残骸  |  除去、アーキテクチャに基づく開発  |
+|  打出の小槌(golden hammer)  |  習慣依存  |  ゼロベース思考  |
+|  スパゲッティコード (spaghetti code)  |  x  |  x  |
+|  切り貼りプログラミング(copy and paste programming)  |  x  |  x  |
+|  曖昧な視点(ambiguous viewpoint)  |  x  |  x  |
+|  入力クラッジ(input kludge)  |  x  |  x  |
+|  暗室栽培(mushroom management)  |  x  |  x  |
 
 ## ソフトウェア基盤
 - システムのおんぼろ煙突化(stovepipe system)
@@ -76,3 +79,5 @@
 
 ## 参考
 - [アンチパターン(wikipedia)](https://ja.wikipedia.org/wiki/アンチパターン)
+- [アンチパターンってなに？](https://thinkit.co.jp/article/929/1)
+- [やめた方が良いコーディング・設計、アンチパターン](https://qiita.com/peutes/items/ad046baa2428b522a133)
